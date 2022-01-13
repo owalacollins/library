@@ -1,12 +1,42 @@
 
 h4{
     text-align: center;
+    display:block;
+    text-decoration: underline;
+    color: rgb(104, 255, 4)!important;
+    margin-top: 10px;
  
 }
-.desc{
-    border: 2px white solid;
-    text-align: center;
-    color: rgb(0, 0, 0);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: 600;
+.cart{
+    position: fixed;
+    color: darkblue;
+    font-size: 20px;
+    background: darksalmon;
 }
+.alighn{
+   float: left;
+   width: 25%;
+}
+p{
+    word-wrap: break-word;
+
+}
+.resource{
+    padding: 5px;
+    border: 1px white solid;
+    margin: 5px;
+    background-color: cadetblue;
+    box-shadow: 1px 1px 3px 3px rgb(4, 10, 46);
+}
+footer{
+    clear: both;
+}
+@media screen and (max-width:600px){
+    .alighn{
+       float: left;
+        width: 50%;
+    }
+}
+
+
+    
